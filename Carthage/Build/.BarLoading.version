@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "590864ce681fe4679b4c7ab4a26bf33bf03c99eb",
+  "iOS" : [
+    {
+      "name" : "BarAimation",
+      "hash" : "6a9c21e16e29ff42e32058e8aa881237817bb867349ebf674caa8972edf7d75d",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

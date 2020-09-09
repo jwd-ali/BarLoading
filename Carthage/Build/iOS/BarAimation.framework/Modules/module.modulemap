@@ -1,0 +1,11 @@
+framework module BarAimation {
+  umbrella header "BarAimation.h"
+
+  export *
+  module * { export * }
+}
+
+module BarAimation.Swift {
+    header "BarAimation-Swift.h"
+    requires objc
+}
