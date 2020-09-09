@@ -78,8 +78,6 @@ import UIKit
         
         upShape.strokeEnd = 0
         downShape.strokeEnd = 0
-        
-        addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(startAnimation)))
     }
     
    
@@ -92,9 +90,10 @@ import UIKit
        }
     
 }
+
  //MARK:- Start Stop Animation
 public extension BarLoading {
-    @objc  func startAnimation(in view : UIView , isConstraintsSet:Bool = false) {
+      func startAnimation(in view : UIView , isConstraintsSet:Bool = false) {
         upShape.strokeAnimation(duration: speed, from: 0, to: 1)
         downShape.strokeAnimation(duration: speed, from: 0, to: 1)
         
